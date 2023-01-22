@@ -33,9 +33,9 @@ export const Chat = () => {
 	}, [chats]);
 
 	return (
-		<div className='pt-50'>
+		<div className='pt-[50px]'>
 			<div className='m-auto h-[640px] w-[314px] bg-[#F8F6FA] rounded-[50px] shadow-inherit p-3 '>
-				<div className='absolute w-32 h-6 bg-[#F8F6FA] rounded-[10px] top-[3.25rem] left-1/2 transform -translate-x-1/2'></div>
+				<div className='absolute w-32 h-6 bg-[#F8F6FA] rounded-[10px] top left-1/2 transform -translate-x-1/2'></div>
 				<div className=' flex justify-around h-[80px] w-[18rem] rounded-t-[50px] top-1 bg-gradient-to-r from-purple-500 to-pink-500'>
 					<img
 						src='https://mdbcdn.b-cdn.net/img/new/avatars/2.webp'
