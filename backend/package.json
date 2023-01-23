@@ -20,7 +20,7 @@
 	},
 	"scripts": {
 		"start": "node ./src/server.js",
-		"build": "npm run --prefix client build",
+		"build": "npm --prefix client install && npm run --prefix client build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
 		"format": "prettier --write .",
